@@ -1,0 +1,10 @@
+/* Стилизация placeholder */
+form#docSearch input::-webkit-input-placeholder {color:#575a61; font-size: 16px}
+form#docSearch input::-moz-placeholder          {color:#575a61; font-size: 16px}/* Firefox 19+ */
+form#docSearch input:-moz-placeholder           {color:#575a61; font-size: 16px}/* Firefox 18- */
+form#docSearch input:-ms-input-placeholder      {color:#575a61; font-size: 16px}
+
+form#docSearch input:focus::-webkit-input-placeholder {color: transparent}
+form#docSearch input:focus::-moz-placeholder          {color: transparent}
+form#docSearch input:focus:-moz-placeholder           {color: transparent}
+form#docSearch input:focus:-ms-input-placeholder      {color: transparent}
